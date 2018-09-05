@@ -5,11 +5,13 @@ import time
 import threading
 
 def get_detail_html(url):
+    #爬取文章详情页
     print("get detail html started")
     time.sleep(2)
     print("get detail html end")
 
 def get_detail_url(url):
+    # 爬取文章列表页
     print("get detail url started")
     time.sleep(2)
     print("get detail url end")
